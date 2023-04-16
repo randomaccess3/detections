@@ -5,7 +5,7 @@ https://aristanetworks.force.com/AristaCommunity/s/article/Google-Doppelganger-M
 https://github.com/mallorybowes/chrome-mal-ids
 https://github.com/uku/malicious-chrome-extensions
 https://blog.avast.com/greedy-cybercriminals-host-malware-on-github
-https://github.com/randomaccess3/detections/blob/main/extensions/chromium/extracted/awake_galcomm.txt
+https://raw.githubusercontent.com/randomaccess3/detections/main/extensions/chromium/extracted/awake_galcomm.txt
 https://duo.com/decipher/malicious-chrome-extension-backdoor-uncovered-in-malware-campaign
 https://heimdalsecurity.com/blog/malicious-chrome-extension/
 https://www.gosecure.net/blog/2022/02/10/malicious-chrome-browser-extension-exposed-chromeback-leverages-silent-extension-loading/
@@ -24,5 +24,6 @@ https://www.zimperium.com/blog/the-case-of-cloud9-chrome-botnet/
 https://decoded.avast.io/janrubin/vipersoftx-hiding-in-system-logs-and-spreading-venomsoftx/
 https://blog.cyble.com/2022/11/22/over-2-million-users-affected-with-browser-hijackers/
 https://www.bleepingcomputer.com/news/security/backdoored-chrome-extension-installed-by-200-000-roblox-players
-https://github.com/randomaccess3/detections/blob/main/extensions/chromium/extracted/reddit_droidclub.txt
-https://github.com/randomaccess3/detections/blob/main/extensions/chromium/extracted/trend_droidclub.txt
+https://raw.githubusercontent.com/randomaccess3/detections/main/extensions/chromium/extracted/reddit_droidclub.txt
+https://raw.githubusercontent.com/randomaccess3/detections/main/extensions/chromium/extracted/trend_droidclub.txt
+https://raw.githubusercontent.com/randomaccess3/detections/main/extensions/chromium/extracted/guard_fakegpt.txt
