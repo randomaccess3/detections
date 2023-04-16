@@ -5,7 +5,7 @@ https://aristanetworks.force.com/AristaCommunity/s/article/Google-Doppelganger-M
 https://github.com/mallorybowes/chrome-mal-ids
 https://github.com/uku/malicious-chrome-extensions
 https://blog.avast.com/greedy-cybercriminals-host-malware-on-github
-https://awakesecurity.com/wp-content/uploads/2020/06/GalComm-Malicious-Chrome-Extensions-Appendix-B.txt
+https://github.com/randomaccess3/detections/blob/main/extensions/chromium/extracted/awake_galcomm.txt
 https://duo.com/decipher/malicious-chrome-extension-backdoor-uncovered-in-malware-campaign
 https://heimdalsecurity.com/blog/malicious-chrome-extension/
 https://www.gosecure.net/blog/2022/02/10/malicious-chrome-browser-extension-exposed-chromeback-leverages-silent-extension-loading/
