@@ -27,3 +27,4 @@ https://www.bleepingcomputer.com/news/security/backdoored-chrome-extension-insta
 https://raw.githubusercontent.com/randomaccess3/detections/main/extensions/chromium/extracted/reddit_droidclub.txt
 https://raw.githubusercontent.com/randomaccess3/detections/main/extensions/chromium/extracted/trend_droidclub.txt
 https://raw.githubusercontent.com/randomaccess3/detections/main/extensions/chromium/extracted/guard_fakegpt.txt
+https://www.mcafee.com/blogs/other-blogs/mcafee-labs/imposter-netflix-chrome-extension-dupes-100k-users/
