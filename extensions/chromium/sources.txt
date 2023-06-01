@@ -28,3 +28,4 @@ https://raw.githubusercontent.com/randomaccess3/detections/main/extensions/chrom
 https://raw.githubusercontent.com/randomaccess3/detections/main/extensions/chromium/extracted/trend_droidclub.txt
 https://raw.githubusercontent.com/randomaccess3/detections/main/extensions/chromium/extracted/guard_fakegpt.txt
 https://www.mcafee.com/blogs/other-blogs/mcafee-labs/imposter-netflix-chrome-extension-dupes-100k-users/
+https://palant.info/2023/05/31/more-malicious-extensions-in-chrome-web-store/
