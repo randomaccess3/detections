@@ -55,6 +55,14 @@
         "appid": "",
         "Permissions": [],
         "References": [https://sigparser.com/]
-      }      
+      },
+    {
+        "name": "Cloud Sponge",
+        "description": "",
+        "categories": ["Address book exfiltration"],
+        "appid": "",
+        "Permissions": [],
+        "References": []
+    }
     ]
   }
