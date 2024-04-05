@@ -12,7 +12,7 @@
         "name": "Newsletter Software Supermailer",
         "description": "",
         "categories": ["phishing"],
-        "appid": "",
+        "appid": "a245e8c0-b53c-4b67-9b45-751d1dff8e6b",
         "Permissions": [],
         "References": ["https://www.huntress.com/blog/legitimate-apps-as-traitorware-for-persistent-microsoft-365-compromise"]
       },
