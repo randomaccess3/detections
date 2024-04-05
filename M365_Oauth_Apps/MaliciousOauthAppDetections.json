@@ -1,0 +1,52 @@
+{
+    "applications": [
+      {
+        "name": "PerfectData Software",
+        "description": "Exports mailboxes for backup purposes",
+        "categories": ["Mailbox exfiltration"],
+        "appid": "ff8d92dc-3d82-41d6-bcbd-b9174d163620",
+        "Permissions": [],
+        "References": ["https://cybercorner.tech/malicious-azure-application-perfectdata-software-and-office365-business-email-compromise/", "https://darktrace.com/blog/how-abuse-of-perfectdata-software-may-create-a-perfect-storm-an-emerging-trend-in-account-takeovers", "https://www.secureworks.com/blog/qr-phishing-leads-to-microsoft-365-account-compromise"]
+      },
+      {
+        "name": "Newsletter Software Supermailer",
+        "description": "",
+        "categories": ["phishing"],
+        "appid": "",
+        "Permissions": [],
+        "References": ["https://www.huntress.com/blog/legitimate-apps-as-traitorware-for-persistent-microsoft-365-compromise"]
+      },
+      {
+        "name": "rclone",
+        "description": "",
+        "categories": [""],
+        "appid": "",
+        "Permissions": [],
+        "References": []
+      },
+      {
+        "name": "eM Client",
+        "description": "eM Client is a desktop email client with full Microsoft Office 365 synchronization.",
+        "categories": ["Mailbox exfiltration"],
+        "appid": "e9a7fea1-1cc0-4cd9-a31b-9137ca5deedd",
+        "Permissions": [],
+        "References": ["https://www.huntress.com/blog/legitimate-apps-as-traitorware-for-persistent-microsoft-365-compromise", "https://cybercorner.tech/malicious-usage-of-em-client-in-business-email-compromise/"]
+      },
+      {
+        "name": "CloudSponge",
+        "description": "CloudSponge is a software-as-a-service product that imports all the major address books. Most websites use our product so that their users don’t have to type email addresses into their referral forms when they want to send an invitation, greeting card or coupon to someone they know.",
+        "categories": ["Address book exfiltration"],
+        "appid": "a43e5392-f48b-46a4-a0f1-098b5eeb4757",
+        "Permissions": [],
+        "References": []
+      },
+      {
+        "name": "Zoominfo Login",
+        "description": "",
+        "categories": ["Address book exfiltration"],
+        "appid": "858d7e42-35f0-44b7-9033-df309239a47f",
+        "Permissions": [],
+        "References": []
+      }
+    ]
+  }
