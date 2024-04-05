@@ -47,6 +47,14 @@
         "appid": "858d7e42-35f0-44b7-9033-df309239a47f",
         "Permissions": [],
         "References": []
+      },
+      {
+        "name": "Fastmail",
+        "description": "",
+        "categories": ["Mailbox exfiltration"],
+        "appid": "77468577-4f6e-40e7-b745-11d3d0c28095",
+        "Permissions": [],
+        "References": ["https://x.com/mwaski88/status/1775904383382802502"]
       }
     ]
   }
