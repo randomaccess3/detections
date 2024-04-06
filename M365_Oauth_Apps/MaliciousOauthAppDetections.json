@@ -12,7 +12,7 @@
         "name": "Newsletter Software Supermailer",
         "description": "",
         "categories": ["phishing"],
-        "appid": "",
+        "appid": "a245e8c0-b53c-4b67-9b45-751d1dff8e6b",
         "Permissions": [],
         "References": ["https://www.huntress.com/blog/legitimate-apps-as-traitorware-for-persistent-microsoft-365-compromise"]
       },
@@ -55,6 +55,14 @@
         "appid": "",
         "Permissions": [],
         "References": ["https://sigparser.com/"]
+      },
+      {
+        "name": "Fastmail",
+        "description": "",
+        "categories": ["Mailbox exfiltration"],
+        "appid": "77468577-4f6e-40e7-b745-11d3d0c28095",
+        "Permissions": [],
+        "References": ["https://x.com/mwaski88/status/1775904383382802502"]
       }
     ]
   }
