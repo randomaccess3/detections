@@ -49,6 +49,14 @@
         "References": []
       },
       {
+        "name": "SigParser",
+        "description": "SigParser securely scans emails, calendars, address books, spreadsheets, and more to automatically generate profiles on the people and companies who have interacted with your business.",
+        "categories": ["Address book exfiltration"],
+        "appid": "",
+        "Permissions": [],
+        "References": ["https://sigparser.com/"]
+      },
+      {
         "name": "Fastmail",
         "description": "",
         "categories": ["Mailbox exfiltration"],
