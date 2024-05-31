@@ -5,8 +5,8 @@ Listing of RMM seen in ransomware investigations. Need to add more information a
 |Application|Installation path|
 |-|-|
 |AmmyyAdmin||
-|AnyDesk||
-|Atera||
+|AnyDesk|C:\Program Files (x86)\AnyDesk|
+|Atera|C:\Program Files\ATERA Networks OR C:\Program Files (x86)\ATERA Networks|
 |Chrome Remote Desktop||
 |ConnectWise||
 |DameWare Mini Remote Control||
@@ -14,20 +14,20 @@ Listing of RMM seen in ransomware investigations. Need to add more information a
 |GoToAssist||
 |Intelliadmin||
 |Kaseya||
-|LogMeIn||
+|LogMeIn|C:\Program Files (x86)\LogMeIn Rescue Technician Console|
 |NetSupport||
-|QuickAssist||
+|QuickAssist|C:\Windows\System32\quickassist.exe|
 |Radmin||
 |RealVNC||
 |Remote Utilities||
-|RemotePC||
-|Screenconnect/Connectwise||
-|Splashtop||
-|SupRemo||
+|RemotePC|C:\Program Files (x86)\RemotePC|
+|Screenconnect/Connectwise|C:\Program Files (x86)\ScreenConnect Client (Version Number Here)|
+|Splashtop|C:\Program Files (x86)\Splashtop|
+|SupRemo|C:\Program Files (x86)\Supremo|
 |Syncro||
-|Teamviewer||
+|Teamviewer|C:\Program Files\TeamViewer|
 |TigerVNC||
-|TightVNC||
+|TightVNC|C:\Program Files\TightVNC|
 |UltraViewer||
 |VNC||
 |VNCconnect||
