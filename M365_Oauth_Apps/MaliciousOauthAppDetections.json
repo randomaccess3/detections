@@ -5,31 +5,31 @@
         "description": "Exports mailboxes for backup purposes",
         "categories": ["Mailbox exfiltration"],
         "appid": "ff8d92dc-3d82-41d6-bcbd-b9174d163620",
-        "Permissions": [],
+        "Permissions": ["offline_access","profile","User.Read","openid","EWS.AccessAsUser.All"],
         "References": ["https://cybercorner.tech/malicious-azure-application-perfectdata-software-and-office365-business-email-compromise/", "https://darktrace.com/blog/how-abuse-of-perfectdata-software-may-create-a-perfect-storm-an-emerging-trend-in-account-takeovers", "https://www.secureworks.com/blog/qr-phishing-leads-to-microsoft-365-account-compromise"]
       },
       {
         "name": "Newsletter Software Supermailer",
-        "description": "",
+        "description": "Bulk email sending software",
         "categories": ["phishing"],
         "appid": "a245e8c0-b53c-4b67-9b45-751d1dff8e6b",
-        "Permissions": [],
+        "Permissions": ["offline_access","Mail.Send","Mail.Read","Contacts.Read"],
         "References": ["https://www.huntress.com/blog/legitimate-apps-as-traitorware-for-persistent-microsoft-365-compromise"]
       },
       {
         "name": "rclone",
-        "description": "",
+        "description": "CLI program for manging files in cloud storage providers",
         "categories": ["Data exfiltration", "Sharepoint/OneDrive exfiltration"],
         "appid": "4761b959-9780-4c2d-87a3-512b4638f767",
-        "Permissions": [],
+        "Permissions": ["Files.Read","Files.ReadWrite","Files.Read.All","Files.ReadWrite.All","offline_access","User.Read","Sites.Read.All"],
         "References": ["https://www.kroll.com/en/insights/publications/cyber/new-m365-business-email-compromise-attacks-with-rclone"]
       },
       {
         "name": "eM Client",
         "description": "eM Client is a desktop email client with full Microsoft Office 365 synchronization.",
-        "categories": ["Mailbox exfiltration"],
+        "categories": ["Mailbox exfiltration","Persistence"],
         "appid": "e9a7fea1-1cc0-4cd9-a31b-9137ca5deedd",
-        "Permissions": [],
+        "Permissions": ["EWS.AccessAsUser.All","offline_access","email","openid"],
         "References": ["https://www.huntress.com/blog/legitimate-apps-as-traitorware-for-persistent-microsoft-365-compromise", "https://cybercorner.tech/malicious-usage-of-em-client-in-business-email-compromise/"]
       },
       {
@@ -48,6 +48,14 @@
         "Permissions": [],
         "References": []
       },
+        {
+        "name": "ZoomInfo Communitiez Login",
+        "description": "B2B marketing platform and contact search tool",
+        "categories": ["Address book exfiltration","Reconnaissance","Phishing"],
+        "appid": "858d7e42-35f0-44b7-9033-df309239a47f",
+        "Permissions": ["offline_access","profile","User.Read","openid","email","Contacts.Read","Mail.Read","User.ReadBasic.All","MailboxSettings.Read"],
+        "References": []
+      },
       {
         "name": "SigParser",
         "description": "SigParser securely scans emails, calendars, address books, spreadsheets, and more to automatically generate profiles on the people and companies who have interacted with your business.",
@@ -59,10 +67,18 @@
       {
         "name": "Fastmail",
         "description": "",
-        "categories": ["Mailbox exfiltration"],
+        "categories": ["Mailbox exfiltration","Persistence"],
         "appid": "77468577-4f6e-40e7-b745-11d3d0c28095",
         "Permissions": [],
         "References": ["https://x.com/mwaski88/status/1775904383382802502"]
+      },
+        {
+        "name": "PostBox",
+        "description": "Desktop email client",
+        "categories": ["Mailbox exfiltration","Persistence"],
+        "appid": "77468577-4f6e-40e7-b745-11d3d0c28095",
+        "Permissions": ["IMAP.AccessAsUser.All","POP.AccessAsUser.All","SMTP.Send","offline_access"],
+        "References": [
       }
     ]
   }
