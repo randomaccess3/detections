@@ -52,7 +52,7 @@
         "name": "ZoomInfo Communitiez Login",
         "description": "B2B marketing platform and contact search tool",
         "categories": ["Address book exfiltration","Reconnaissance","Phishing"],
-        "appid": "f7a5c120-3b4c-4863-8e75-cbb0047b14a6",
+        "appid": "497ac034-5120-4c1a-929a-0351f5c09918",
         "Permissions": ["offline_access","profile","User.Read","openid","email","Contacts.Read","Mail.Read","User.ReadBasic.All","MailboxSettings.Read"],
         "References": []
       },
@@ -76,7 +76,7 @@
         "name": "PostBox",
         "description": "Desktop email client",
         "categories": ["Mailbox exfiltration","Persistence"],
-        "appid": "86fe4ec7-3d5b-42f1-b156-a6c27dc18102",
+        "appid": "179d5108-412b-4c95-8e34-06786784ab39",
         "Permissions": ["IMAP.AccessAsUser.All","POP.AccessAsUser.All","SMTP.Send","offline_access"],
         "References": []
       },
@@ -84,7 +84,7 @@
         "name": "Spike",
         "description": "",
         "categories": ["Mailbox exfiltration","Persistence","Phishing"],
-        "appid": "102716b5-957c-473a-b85a-024a13982193",
+        "appid": "946c777c-bc85-489e-b034-392389ae23d6",
         "Permissions": ["offline_access","Mail.ReadWrite","Mail.Send","User.Read","People.Read","MailboxSettings.ReadWrite","Calendars.ReadWrite"],
         "References": ["https://darktrace.com/blog/breakdown-of-a-multi-account-compromise-within-office-365"]
       }
