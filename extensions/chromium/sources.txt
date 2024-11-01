@@ -41,3 +41,4 @@ https://decoded.avast.io/anhho/chasing-chaes-kill-chain/
 https://blog.morphisec.com/chaes4-new-chaes-malware-variant-targeting-financial-and-logistics-customers
 https://www.bleepingcomputer.com/news/security/backdoored-chrome-extension-installed-by-200-000-roblox-players/
 https://reasonlabs.com/research/new-widespread-extension-trojan-malware-campaign
+https://palant.info/2024/10/30/the-karma-connection-in-chrome-web-store/
