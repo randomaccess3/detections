@@ -42,3 +42,4 @@ https://blog.morphisec.com/chaes4-new-chaes-malware-variant-targeting-financial-
 https://www.bleepingcomputer.com/news/security/backdoored-chrome-extension-installed-by-200-000-roblox-players/
 https://reasonlabs.com/research/new-widespread-extension-trojan-malware-campaign
 https://palant.info/2024/10/30/the-karma-connection-in-chrome-web-store/
+https://gitlab-com.gitlab.io/gl-security/security-tech-notes/threat-intelligence-tech-notes/malicious-browser-extensions-feb-2025/
