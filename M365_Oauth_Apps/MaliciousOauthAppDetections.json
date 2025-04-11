@@ -87,6 +87,14 @@
         "appid": "946c777c-bc85-489e-b034-392389ae23d6",
         "Permissions": ["offline_access","Mail.ReadWrite","Mail.Send","User.Read","People.Read","MailboxSettings.ReadWrite","Calendars.ReadWrite"],
         "References": ["https://darktrace.com/blog/breakdown-of-a-multi-account-compromise-within-office-365"]
+      },
+        {
+        "name": "Mail_Backup",
+        "description": "Exports mailboxes for backup purposes, used by threat actors to exfiltrate email. This is the new name for PERFECTDATA SOFTWARE.",
+        "categories": ["Mailbox exfiltration"],
+        "appid": "2ef68ccc-8a4d-42ff-ae88-2d7bb89ad139",
+        "Permissions": ["offline_access","profile","User.Read","openid","Mail.Read","MailboxFolder.Read","Contacts.Read","Calendars.Read","MailboxSettings.Read","Mail.ReadWrite","MailboxFolder.ReadWrite"],
+        "References": ["https://cybercorner.tech/malicious-azure-application-perfectdata-software-and-office365-business-email-compromise/", "https://darktrace.com/blog/how-abuse-of-perfectdata-software-may-create-a-perfect-storm-an-emerging-trend-in-account-takeovers", "https://www.secureworks.com/blog/qr-phishing-leads-to-microsoft-365-account-compromise"]
       }
     ]
   }
