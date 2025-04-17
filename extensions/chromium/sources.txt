@@ -30,16 +30,4 @@ https://raw.githubusercontent.com/randomaccess3/detections/main/extensions/chrom
 https://www.mcafee.com/blogs/other-blogs/mcafee-labs/imposter-netflix-chrome-extension-dupes-100k-users/
 https://palant.info/2023/05/31/more-malicious-extensions-in-chrome-web-store/
 https://blog.avast.com/malicious-extensions-chrome-web-store
-https://palant.info/2023/06/08/another-cluster-of-potentially-malicious-chrome-extensions/
-https://palant.info/2023/06/14/why-browser-extension-games-need-access-to-all-websites/
-https://www.malwarebytes.com/blog/threat-intelligence/2023/07/criminals-target-businesses-with-malicious-extension-for-metas-ads-manager-and-accidentally-leak-stolen-accounts
-https://www.trustwave.com/en-us/resources/blogs/spiderlabs-blog/new-rilide-stealer-version-targets-banking-data-and-works-around-google-chrome-manifest-v3/
-https://raw.githubusercontent.com/palant/malicious-extensions-list/main/list.txt
-https://www.trendmicro.com/en_us/research/23/h/profile-stealers-spread-via-llm-themed-facebook-ads.html
-https://www.welivesecurity.com/2013/07/30/versatile-and-infectious-win64expiro-is-a-cross-platform-file-infector/
-https://decoded.avast.io/anhho/chasing-chaes-kill-chain/
-https://blog.morphisec.com/chaes4-new-chaes-malware-variant-targeting-financial-and-logistics-customers
-https://www.bleepingcomputer.com/news/security/backdoored-chrome-extension-installed-by-200-000-roblox-players/
-https://reasonlabs.com/research/new-widespread-extension-trojan-malware-campaign
-https://palant.info/2024/10/30/the-karma-connection-in-chrome-web-store/
-https://gitlab-com.gitlab.io/gl-security/security-tech-notes/threat-intelligence-tech-notes/malicious-browser-extensions-feb-2025/
+https://docs.google.com/spreadsheets/d/1LN7MQ_9W5QHIyZjjqXK7JnSiCLlcF4aBRhmZKon-p4U/edit?gid=0#gid=0
