@@ -34,3 +34,4 @@ https://docs.google.com/spreadsheets/d/1LN7MQ_9W5QHIyZjjqXK7JnSiCLlcF4aBRhmZKon-
 https://labs.sqrx.com/hidden-in-plain-sight-how-we-followed-one-malicious-extension-to-uncover-a-multi-extension-a6f3f0792b98
 https://socket.dev/blog/malicious-chrome-extension-exfiltrates-seed-phrases
 https://socket.dev/blog/malicious-chrome-extension-injects-hidden-sol-fees-into-solana-swaps
+https://www.koi.ai/blog/4-million-browsers-infected-inside-shadypanda-7-year-malware-campaign
