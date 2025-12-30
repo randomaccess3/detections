@@ -24,7 +24,7 @@ Listing of RMM seen in ransomware investigations. Need to add more information a
 |Screenconnect/Connectwise|C:\Program Files (x86)\ScreenConnect Client (Version Number Here)|
 |Splashtop|C:\Program Files (x86)\Splashtop|
 |SupRemo|C:\Program Files (x86)\Supremo|
-|Syncro||
+|Syncro||C:\Program Files\RepairTech\Syncro
 |Teamviewer|C:\Program Files\TeamViewer|
 |TigerVNC||
 |TightVNC|C:\Program Files\TightVNC|
