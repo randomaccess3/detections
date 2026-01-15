@@ -36,3 +36,4 @@ https://socket.dev/blog/malicious-chrome-extension-exfiltrates-seed-phrases
 https://socket.dev/blog/malicious-chrome-extension-injects-hidden-sol-fees-into-solana-swaps
 https://www.koi.ai/blog/4-million-browsers-infected-inside-shadypanda-7-year-malware-campaign
 https://socket.dev/blog/malicious-chrome-extensions-phantom-shuttle
+https://socket.dev/blog/malicious-chrome-extension-steals-mexc-api-keys
