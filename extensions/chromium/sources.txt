@@ -40,3 +40,4 @@ https://socket.dev/blog/malicious-chrome-extension-steals-mexc-api-keys
 https://socket.dev/blog/5-malicious-chrome-extensions-enable-session-hijacking
 https://layerxsecurity.com/blog/browser-extensions-gone-rogue-the-full-scope-of-the-ghostposter-campaign/
 https://www.truesec.com/hub/blog/chrome-extension-steal-chatgpt-and-deepseek-conversations
+https://layerxsecurity.com/blog/how-we-discovered-a-campaign-of-16-malicious-extensions-chatgpt/
