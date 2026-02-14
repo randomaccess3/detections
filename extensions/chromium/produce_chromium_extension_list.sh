@@ -8,5 +8,5 @@ cat "./sources.txt" | while read link
 do
     echo "Parsing $link"
     escaped_link=$(printf '%s\n' "$link" | sed -e 's/[]\/$*.^[]/\\&/g');
-    curl -sL $link | egrep -o "[a-z]{32}" | sort | uniq | sed "s/$/,\"${escaped_link}\"/g" >> suspicious_chromium_extensions.csv
+    curl -sL $link | egrep -o "\b[a-z]{32}\b" | sort | uniq | sed "s/$/,\"${escaped_link}\"/g" >> suspicious_chromium_extensions.csv
 done
