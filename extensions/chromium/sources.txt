@@ -44,3 +44,4 @@ https://layerxsecurity.com/blog/how-we-discovered-a-campaign-of-16-malicious-ext
 https://socket.dev/blog/malicious-chrome-extension-performs-hidden-affiliate-hijacking?utm_medium=feed
 https://socket.dev/blog/fake-imtoken-chrome-extension-steals-seed-phrases-via-phishing-redirects
 https://socket.dev/blog/malicious-chrome-extension-steals-meta-business-manager-exports-and-totp-2fa-seeds
+https://annex.security/blog/pixel-perfect/
