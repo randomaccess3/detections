@@ -1,0 +1,85 @@
+name: Process Copilot Issue
+
+on:
+  issues:
+    types: [labeled]
+
+jobs:
+  process-copilot-issue:
+    if: github.event.label.name == 'Copilot'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Configure Git
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Extract URL and create branch
+        id: setup
+        env:
+          ISSUE_BODY: ${{ github.event.issue.body }}
+          ISSUE_CREATED_AT: ${{ github.event.issue.created_at }}
+          ISSUE_NUMBER: ${{ github.event.issue.number }}
+        run: |
+          # Extract the first URL from the issue body
+          LINK=$(echo "$ISSUE_BODY" | grep -oE 'https?://[^ \t\n\r]+' | head -1)
+          if [ -z "$LINK" ]; then
+            echo "No URL found in issue body"
+            exit 1
+          fi
+          echo "link=$LINK" >> $GITHUB_OUTPUT
+
+          # Create a branch name from the issue creation date/time
+          BRANCH_NAME="copilot/$(echo "$ISSUE_CREATED_AT" | sed 's/T/-/; s/Z//; s/:/-/g')-issue-${ISSUE_NUMBER}"
+          echo "branch=$BRANCH_NAME" >> $GITHUB_OUTPUT
+
+          git checkout -b "$BRANCH_NAME"
+
+      - name: Process extensions and update files
+        env:
+          LINK: ${{ steps.setup.outputs.link }}
+        run: |
+          link="$LINK"
+
+          # Extract 32-character lowercase extension IDs and append the source URL
+          OUTPUT_FILE=$(mktemp)
+          escaped_link=$(printf '%s\n' "$link" | sed -e 's/[]\/$*.^[]/\\&/g')
+          curl -fsSL "$link" | grep -oE "\b[a-z]{32}\b" | sort | uniq | sed "s/$/,\"${escaped_link}\"/" > "$OUTPUT_FILE"
+
+          # Add the link to the bottom of sources.txt
+          echo "$link" >> extensions/chromium/sources.txt
+
+          # Append the extracted extension IDs to suspicious_chromium_extensions.csv only if results were found
+          if [ -s "$OUTPUT_FILE" ]; then
+            cat "$OUTPUT_FILE" >> extensions/chromium/suspicious_chromium_extensions.csv
+          fi
+
+      - name: Commit and push changes
+        env:
+          BRANCH: ${{ steps.setup.outputs.branch }}
+          LINK: ${{ steps.setup.outputs.link }}
+          ISSUE_NUMBER: ${{ github.event.issue.number }}
+        run: |
+          git add extensions/chromium/sources.txt extensions/chromium/suspicious_chromium_extensions.csv
+          git diff --staged --quiet || git commit -m "Add extensions from issue #${ISSUE_NUMBER}: ${LINK}"
+          git push origin "$BRANCH"
+
+      - name: Create pull request
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          BRANCH: ${{ steps.setup.outputs.branch }}
+          LINK: ${{ steps.setup.outputs.link }}
+          ISSUE_NUMBER: ${{ github.event.issue.number }}
+        run: |
+          gh pr create \
+            --title "Add extensions from issue #${ISSUE_NUMBER}" \
+            --body "Adds extension IDs extracted from ${LINK} (resolves #${ISSUE_NUMBER})" \
+            --base main \
+            --head "$BRANCH"
