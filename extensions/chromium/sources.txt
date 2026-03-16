@@ -45,3 +45,7 @@ https://socket.dev/blog/malicious-chrome-extension-performs-hidden-affiliate-hij
 https://socket.dev/blog/fake-imtoken-chrome-extension-steals-seed-phrases-via-phishing-redirects
 https://socket.dev/blog/malicious-chrome-extension-steals-meta-business-manager-exports-and-totp-2fa-seeds
 https://annex.security/blog/pixel-perfect/
+https://secureannex.com/blog/depin-browser-extensions/
+https://www.cybereason.com/blog/chrome-extension-campaign-madgicx
+https://layerxsecurity.com/blog/aiframe-fake-ai-assistant-extensions-targeting-260000-chrome-users-via-injected-iframes/
+https://annex.security/blog/promise-bomb/
