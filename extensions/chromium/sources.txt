@@ -42,4 +42,4 @@ https://layerxsecurity.com/blog/browser-extensions-gone-rogue-the-full-scope-of-
 https://www.truesec.com/hub/blog/chrome-extension-steal-chatgpt-and-deepseek-conversations
 https://layerxsecurity.com/blog/how-we-discovered-a-campaign-of-16-malicious-extensions-chatgpt/
 https://socket.dev/blog/malicious-chrome-extension-performs-hidden-affiliate-hijacking?utm_medium=feed
-https://socket.dev/blog/fake-imtoken-chrome-extension-steals-seed-phrases-via-phishing-redirects
+https://socket.dev/blog/fake-imtoken-chrome-extension-steals-seed-phrases-via-phishing-redirectshttps://socke
